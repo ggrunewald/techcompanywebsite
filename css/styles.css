@@ -1,0 +1,113 @@
+body {
+  padding: 0 15%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+
+h2 {
+  font-weight: 500;
+}
+
+@media (max-width: 991px){
+  body {
+    padding: 0 0;
+  }
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 3%;
+}
+
+.navbar-brand {
+  font-size: 3.5rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+/* Title Section */
+.title-section {
+  background-color: #000;
+  color: #fff;
+  position: relative;
+}
+
+.title{
+  text-align: left;
+  padding: 5% 3%;
+}
+
+.phone-img {
+  text-align: center;
+}
+
+.title-release {
+  font-size: 4rem;
+  margin-top: 15%;
+}
+
+.title-msg {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #b0b0b0;
+}
+
+.phone-img {
+  max-width: 80%;
+  transform: rotate(315deg);
+}
+
+@media (min-width: 1516px) {
+  .title-release {
+    margin-top: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  .row {
+    text-align: center;
+  }
+
+  .phone-img {
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+
+/* Store section */
+.store-section {
+  padding: 7% 0;
+}
+
+.product-img {
+  width: 70%;
+  margin: 10% auto;
+}
+
+.card-title {
+  font-size: 1.8rem;
+}
+
+.card-body {
+  padding: 7%;
+}
+
+.product-price {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 991px) {
+
+  .store-section{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
