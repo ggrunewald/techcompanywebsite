@@ -92,6 +92,10 @@ h2 {
   margin: 10% auto;
 }
 
+.car-header {
+  background-color: #fff;
+}
+
 .card-title {
   font-size: 1.8rem;
 }
